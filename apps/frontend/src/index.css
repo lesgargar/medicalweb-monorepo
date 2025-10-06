@@ -1,12 +1,14 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  
+
   --primary-color: #d6a6f5;
   --secondary-color: #eabaff;
   --terciary-color: #b8b0ff;
-  
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -16,8 +18,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
 
 a {
   font-weight: 500;
@@ -180,4 +180,3 @@ button:focus-visible {
   font-weight: 900;
   font-style: italic;
 }
-
